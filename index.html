@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bharathi B | Cloud Engineer Portfolio</title>
+<meta name="description" content="Portfolio of Bharathi B, Cloud Engineer (AWS, Microsoft Azure, Python, REST APIs) based in Chennai.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="brand" href="#home">Bharathi B</a>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact" class="pill">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hello">Hi, I’m</p>
+      <h1>Bharathi B</h1>
+      <p class="role">Cloud Engineer · <span id="typed"></span><span class="caret">|</span></p>
+      <p class="lead">B.Tech Information Technology graduate with hands-on exposure to AWS and Microsoft Azure, building backend-driven applications with Python and REST APIs. Based in Chennai.</p>
+      <div class="cta">
+        <a class="btn primary" href="assets/Bharathi_B_Resume.pdf" download>Download Resume</a>
+        <a class="btn ghost" href="#projects">View Projects</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/bharathibalu19" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/bharathib19/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:bharathibalachandhiran@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="term" aria-label="Profile summary terminal">
+      <div class="term-bar"><i></i><i></i><i></i><span>bharathi@cloud:~</span></div>
+      <pre id="term" tabindex="0"></pre>
+      <div class="term-btns" id="termBtns">
+        <button data-cmd="whoami">whoami</button>
+        <button data-cmd="skills">skills</button>
+        <button data-cmd="badge">badge</button>
+        <button data-cmd="contact">contact</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <div class="wrap two">
+    <div>
+      <h2>About me</h2>
+      <p>I’m a cloud engineering aspirant and B.Tech Information Technology graduate with hands-on exposure to AWS (EC2, S3, Lambda) and Microsoft Azure, backed by an AWS Cloud Quest: Cloud Practitioner training badge.</p>
+      <p>I have a strong foundation in Python, REST APIs, databases, Git/GitHub and object-oriented programming, with experience building and securing backend-driven applications. I’m eager to contribute to cloud deployment, automation and scalable solutions as a Cloud Engineer.</p>
+    </div>
+    <div class="stats">
+      <div><b data-count="7.8" data-dec="1">0</b><span>CGPA, B.Tech IT</span></div>
+      <div><b data-count="35" data-suffix="+">0</b><span>campus visitors helped by Campus Buddy</span></div>
+      <div><b data-count="90" data-suffix="%">0</b><span>guidance accuracy in Campus Buddy</span></div>
+      <div><b data-count="4">0</b><span>week Microsoft-curated internship</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec alt">
+  <div class="wrap">
+    <h2>Technical skills</h2>
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="on" data-f="all">All</button>
+      <button data-f="cloud">Cloud</button>
+      <button data-f="code">Programming</button>
+      <button data-f="backend">Backend &amp; Web</button>
+      <button data-f="data">Databases</button>
+      <button data-f="tools">Systems &amp; Tools</button>
+    </div>
+    <div class="chips" id="chips"></div>
+    <p class="note">Cloud concepts covered through AWS Cloud Quest: compute, storage, networking, database and security services.</p>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Campus Buddy</h3>
+        <p class="sub">Voice-guided navigation system</p>
+        <p class="stack">Python (Flask) · gTTS · Speech Recognition · SQLite</p>
+        <ul>
+          <li>Developed a voice-guided navigation system using Python and Flask to help 35+ campus visitors locate departments.</li>
+          <li>Integrated Speech Recognition and Google Text-to-Speech (gTTS) for real-time voice guidance, achieving 90% guidance accuracy.</li>
+          <li>Added Tanglish (Tamil + English) support to improve accessibility for local users.</li>
+        </ul>
+        <a class="link" href="https://github.com/bharathibalu19" target="_blank" rel="noopener">See on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>Project Approval System</h3>
+        <p class="sub">MERN stack, multi-role portals</p>
+        <p class="stack">MongoDB · Express.js · React.js · Node.js · REST APIs</p>
+        <ul>
+          <li>Built a multi-role system with separate student, reviewer and admin portals to manage project submissions and approvals.</li>
+          <li>Implemented JWT authentication, password hashing and protected routes to secure access for different user roles.</li>
+          <li>Designed MongoDB schemas and REST APIs to manage project data and status updates.</li>
+        </ul>
+        <a class="link" href="https://github.com/bharathibalu19" target="_blank" rel="noopener">See on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>AI Resume Analyzer</h3>
+        <p class="sub">Microsoft &amp; AICTE (Edunet Foundation) virtual internship, 04/2025 – 05/2025</p>
+        <p class="stack">NLP · Machine Learning</p>
+        <ul>
+          <li>Completed a 4-week Microsoft-curated internship covering Machine Learning, Deep Learning and NLP through hands-on modules.</li>
+          <li>Developed an AI-based Resume Analyzer using NLP to semantically match resumes with job descriptions and generate skill-gap feedback.</li>
+        </ul>
+        <a class="link" href="https://github.com/bharathibalu19" target="_blank" rel="noopener">See on GitHub</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="sec alt">
+  <div class="wrap">
+    <h2>Education</h2>
+    <ol class="timeline">
+      <li><time>2022 – 2026</time><h3>B.Tech Information Technology</h3><p>EGS Pillay Engineering College · CGPA 7.8</p><p class="muted">Relevant coursework: Cloud Computing, DBMS, Data Structures &amp; Algorithms, Object-Oriented Programming</p></li>
+      <li><time>2021 – 2022</time><h3>Class XII</h3><p>Shyamala Girls Hr. Sec School · 76%</p></li>
+      <li><time>2019 – 2020</time><h3>Class X</h3><p>Shyamala Girls Hr. Sec School · 70%</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="certifications" class="sec">
+  <div class="wrap">
+    <h2>Certifications &amp; training</h2>
+    <div class="certs">
+      <div class="cert">
+        <img src="assets/aws-cloud-quest-badge.png" alt="AWS Cloud Quest: Cloud Practitioner training badge" width="120" height="132" loading="lazy">
+        <div>
+          <h3>AWS Cloud Quest: Cloud Practitioner</h3>
+          <p>Training badge · Amazon Web Services</p>
+          <a class="link" href="https://www.credly.com/badges/0f3a9af2-f04a-428e-8dc3-60e20464591c/public_url" target="_blank" rel="noopener">Verify badge</a>
+        </div>
+      </div>
+      <div class="cert">
+        <div>
+          <h3>AI Concepts Virtual Internship</h3>
+          <p>Microsoft &amp; AICTE (Edunet Foundation)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="sec dark">
+  <div class="wrap two">
+    <div>
+      <h2>Contact</h2>
+      <p>Open to Cloud Engineer opportunities. Send a message or reach me directly.</p>
+      <ul class="clist">
+        <li><a href="mailto:bharathibalachandhiran@gmail.com">bharathibalachandhiran@gmail.com</a></li>
+        <li><a href="tel:+918148967496">+91 8148967496</a></li>
+        <li>Chennai, India</li>
+        <li><a href="https://www.linkedin.com/in/bharathib19/" target="_blank" rel="noopener">linkedin.com/in/bharathib19</a></li>
+        <li><a href="https://github.com/bharathibalu19" target="_blank" rel="noopener">github.com/bharathibalu19</a></li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Open in email app</button>
+      <p class="status" id="status" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">© <span id="yr"></span> Bharathi B</footer>
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
